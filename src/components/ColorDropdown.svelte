@@ -11,8 +11,12 @@
         editor.update((editor) => {
             editor[slot] = color;
             return editor;
-        })
+        });
     }
+
+    editor.subscribe((value) => {
+        color = value[slot];
+    });
 </script>
 
 <div class="dropdown__root">
@@ -75,14 +79,16 @@
         font-family: var(--font-family), serif;
         font-size: var(--font-size-small);
 
-        border: var(--color-border);
         border-radius: var(--border-radius-large);
-        background-color: var(--color-surface);
-        color: var(--color-on-surface);
-
+        border: 0 solid transparent;
+        background: var(--color-gray);
+        color: var(--color-on-gray);
         &:hover, &:focus-visible {
-            border: var(--color-border-hovered);
+            border: 0 solid transparent;
             outline: 0 solid transparent;
+            background: var(--color-light);
+            color: var(--color-on-light);
+            cursor: pointer;
         }
     }
 </style>

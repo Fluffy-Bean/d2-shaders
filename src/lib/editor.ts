@@ -13,8 +13,22 @@ function makeStore() {
         [ShaderSlot.InnerMetal]: ShaderColor.NoColor,
     });
 
+    function reset(): void {
+        store.set({
+            [ShaderSlot.TopFabric]: ShaderColor.NoColor,
+            [ShaderSlot.RightFabric]: ShaderColor.NoColor,
+            [ShaderSlot.LeftFabric]: ShaderColor.NoColor,
+            [ShaderSlot.BottomFabric]: ShaderColor.NoColor,
+            [ShaderSlot.TopLight]: ShaderColor.NoColor,
+            [ShaderSlot.BottomLight]: ShaderColor.NoColor,
+            [ShaderSlot.OuterMetal]: ShaderColor.NoColor,
+            [ShaderSlot.InnerMetal]: ShaderColor.NoColor,
+        });
+    }
+
     return {
         ...store,
+        reset,
     };
 }
 

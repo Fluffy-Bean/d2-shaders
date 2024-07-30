@@ -1,5 +1,7 @@
 <script lang="ts">
+    import { ArrowClockwise } from "phosphor-svelte";
     import { ShaderSlot } from "../lib/types";
+    import editor from "../lib/editor";
     import ColorDropdown from "./ColorDropdown.svelte";
     import ShaderPreview from "./ShaderPreview.svelte";
 
@@ -17,48 +19,55 @@
         </div>
 
         <div style="margin-bottom: 8px">
-            <small>Top Fabric/Leather</small>
+            <p>Top Fabric/Leather</p>
             <ColorDropdown slot={ShaderSlot.TopFabric} />
         </div>
 
         <div style="margin-bottom: 8px">
-            <small>Left Fabric/Leather</small>
+            <p>Left Fabric/Leather</p>
             <ColorDropdown slot={ShaderSlot.LeftFabric} />
         </div>
 
         <div style="margin-bottom: 8px">
-            <small>Right Fabric/Leather</small>
+            <p>Right Fabric/Leather</p>
             <ColorDropdown slot={ShaderSlot.RightFabric} />
         </div>
 
         <div style="margin-bottom: 8px">
-            <small>Bottom Fabric/Leather</small>
+            <p>Bottom Fabric/Leather</p>
             <ColorDropdown slot={ShaderSlot.BottomFabric} />
         </div>
 
         <hr style="margin: 16px 0">
 
         <div style="margin-bottom: 8px">
-            <small>Top Lights</small>
+            <p>Top Lights</p>
             <ColorDropdown slot={ShaderSlot.TopLight} />
         </div>
 
         <div style="margin-bottom: 8px">
-            <small>Bottom Lights</small>
+            <p>Bottom Lights</p>
             <ColorDropdown slot={ShaderSlot.BottomLight} />
         </div>
 
         <hr style="margin: 16px 0">
 
         <div style="margin-bottom: 8px">
-            <small>Metal 1</small>
+            <p>Outer Metal</p>
             <ColorDropdown slot={ShaderSlot.OuterMetal} />
         </div>
 
         <div style="margin-bottom: 8px">
-            <small>Metal 2</small>
+            <p>Inner Metal</p>
             <ColorDropdown slot={ShaderSlot.InnerMetal} />
         </div>
+
+        <hr style="margin: 16px 0">
+
+        <button class="editor__reset-button" on:click={() => {editor.reset()}}>
+            <ArrowClockwise />
+            <span>Reset</span>
+        </button>
     </div>
 </div>
 
@@ -85,14 +94,6 @@
         top: 0;
         left: 0;
 
-        //background-image: repeating-linear-gradient(
-        //    0.8turn,
-        //    rgba(var(--color-surface), 0.5) 3px,
-        //    rgba(var(--color-surface), 0.2) 3px,
-        //    rgba(var(--color-surface), 0.2) 6px,
-        //    rgba(var(--color-surface), 0.5) 6px,
-        //    rgba(var(--color-surface), 0.5) 9px,
-        //);
         backdrop-filter: blur(3px);
         display: none;
     }
@@ -121,5 +122,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .editor__reset-button {
+        padding: 0 18px;
+
+        width: 100%;
+        height: 35px;
+
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+
+        font-family: var(--font-family), serif;
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-bold);
+        text-decoration: none;
+
+        border-radius: var(--border-radius-large);
+        border: 1px solid transparent;
+        background: var(--color-gray);
+        color: var(--color-on-gray);
+        &:hover, &:focus-visible {
+            background: var(--color-destructive);
+            color: var(--color-on-destructive);
+            cursor: pointer;
+        }
     }
 </style>
