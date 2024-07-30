@@ -256,6 +256,36 @@ const DB: Shader[] = [
             InnerMetal: ShaderColor.White,
         },
     },
+    {
+        name: "Aniline Shock",
+        source: "Source: Bright Engrams",
+        image: "/common/destiny2_content/icons/0d85ed10a81cd39361ff2da2db041cc1.jpg",
+        colors: {
+            TopFabric: ShaderColor.White,
+            LeftFabric: ShaderColor.Black,
+            RightFabric: ShaderColor.Black,
+            BottomFabric: ShaderColor.White,
+            TopLight: ShaderColor.White,
+            BottomLight: ShaderColor.White,
+            OuterMetal: ShaderColor.White,
+            InnerMetal: ShaderColor.Blue,
+        },
+    },
+    {
+        name: "Anyone's Game",
+        source: "Source: Season 13 Guardian Games",
+        image: "/common/destiny2_content/icons/32e782f806987d5e8f6d57ca07015e4f.jpg",
+        colors: {
+            TopFabric: ShaderColor.Yellow,
+            LeftFabric: ShaderColor.Blue,
+            RightFabric: ShaderColor.White,
+            BottomFabric: ShaderColor.Black,
+            TopLight: ShaderColor.White,
+            BottomLight: ShaderColor.Red,
+            OuterMetal: ShaderColor.Red,
+            InnerMetal: ShaderColor.White,
+        },
+    },
     
 ]
 
