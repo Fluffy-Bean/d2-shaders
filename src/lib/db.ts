@@ -51,7 +51,7 @@ const DB: Shader[] = [
         source: "Source: Eververse",
         image: "/common/destiny2_content/icons/403f3cae7ac06b46ef11fc5792291179.jpg",
         colors: {
-            TopFabric: ShaderColor.NoColor,
+            TopFabric: ShaderColor.Brown,
             LeftFabric: ShaderColor.Black,
             RightFabric: ShaderColor.Red,
             BottomFabric: ShaderColor.Black,
@@ -151,7 +151,6 @@ const DB: Shader[] = [
             InnerMetal: ShaderColor.Grey,
         },
     },
-    
 ]
 
 export default DB;
