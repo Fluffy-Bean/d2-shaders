@@ -1,7 +1,7 @@
 <script lang="ts">
     import { ArrowClockwise } from "phosphor-svelte";
-    import { ShaderSlot } from "../lib/types";
-    import editor from "../lib/editor";
+    import { MaterialSlot } from "../lib/materials";
+    import editorStore from "../lib/editorStore";
     import ColorDropdown from "./ColorDropdown.svelte";
     import ShaderPreview from "./ShaderPreview.svelte";
 
@@ -20,51 +20,51 @@
 
         <div style="margin-bottom: 8px">
             <p>Top Fabric/Leather</p>
-            <ColorDropdown slot={ShaderSlot.TopFabric} />
+            <ColorDropdown slot={MaterialSlot.TopFabric} />
         </div>
 
         <div style="margin-bottom: 8px">
             <p>Left Fabric/Leather</p>
-            <ColorDropdown slot={ShaderSlot.LeftFabric} />
+            <ColorDropdown slot={MaterialSlot.LeftFabric} />
         </div>
 
         <div style="margin-bottom: 8px">
             <p>Right Fabric/Leather</p>
-            <ColorDropdown slot={ShaderSlot.RightFabric} />
+            <ColorDropdown slot={MaterialSlot.RightFabric} />
         </div>
 
         <div style="margin-bottom: 8px">
             <p>Bottom Fabric/Leather</p>
-            <ColorDropdown slot={ShaderSlot.BottomFabric} />
+            <ColorDropdown slot={MaterialSlot.BottomFabric} />
         </div>
 
         <hr style="margin: 16px 0">
 
         <div style="margin-bottom: 8px">
             <p>Top Lights</p>
-            <ColorDropdown slot={ShaderSlot.TopLight} />
+            <ColorDropdown slot={MaterialSlot.TopLight} />
         </div>
 
         <div style="margin-bottom: 8px">
             <p>Bottom Lights</p>
-            <ColorDropdown slot={ShaderSlot.BottomLight} />
+            <ColorDropdown slot={MaterialSlot.BottomLight} />
         </div>
 
         <hr style="margin: 16px 0">
 
         <div style="margin-bottom: 8px">
             <p>Outer Metal</p>
-            <ColorDropdown slot={ShaderSlot.OuterMetal} />
+            <ColorDropdown slot={MaterialSlot.OuterMetal} />
         </div>
 
         <div style="margin-bottom: 8px">
             <p>Inner Metal</p>
-            <ColorDropdown slot={ShaderSlot.InnerMetal} />
+            <ColorDropdown slot={MaterialSlot.InnerMetal} />
         </div>
 
         <hr style="margin: 16px 0">
 
-        <button class="editor__reset-button" on:click={() => {editor.reset()}}>
+        <button class="editor__reset-button" on:click={() => {editorStore.reset()}}>
             <ArrowClockwise />
             <span>Reset</span>
         </button>

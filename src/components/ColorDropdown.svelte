@@ -1,48 +1,45 @@
 <script lang="ts">
     import { X } from "phosphor-svelte";
-    import { ShaderColor, ShaderSlot } from "../lib/types";
-    import editor from "../lib/editor";
+    import { Material, Materials, MaterialSlot } from "../lib/materials";
+    import editorStore from "../lib/editorStore";
 
-    export let slot: ShaderSlot;
+    export let slot: MaterialSlot;
 
-    let color = ShaderColor.NoColor;
+    let color = Material.None;
 
     function onChange() {
-        editor.update((editor) => {
+        editorStore.update((editor) => {
             editor[slot] = color;
             return editor;
         });
     }
 
-    editor.subscribe((value) => {
+    editorStore.subscribe((value) => {
         color = value[slot];
     });
 </script>
 
 <div class="dropdown__root">
     <select class="dropdown__select" bind:value={color} on:change={onChange}>
-        <option value={ShaderColor.NoColor}>No Selection</option>
+        <option value={Material.None}>No Selection</option>
 
         <!-- Simple Colours -->
-        <option value={ShaderColor.Red}>Red</option>
-        <option value={ShaderColor.Orange}>Orange</option>
-        <option value={ShaderColor.Yellow}>Yellow</option>
-        <option value={ShaderColor.Lime}>Lime</option>
-        <option value={ShaderColor.Green}>Green</option>
-        <option value={ShaderColor.Cyan}>Cyan</option>
-        <option value={ShaderColor.Blue}>Blue</option>
-        <option value={ShaderColor.Purple}>Purple</option>
-        <option value={ShaderColor.Pink}>Pink</option>
-        <option value={ShaderColor.White}>White</option>
-        <option value={ShaderColor.Grey}>Grey</option>
-        <option value={ShaderColor.Black}>Black</option>
-        <option value={ShaderColor.Brown}>Brown</option>
+        <option value={Material.Red}>Red</option>
+        <option value={Material.Orange}>Orange</option>
+        <option value={Material.Yellow}>Yellow</option>
+        <option value={Material.Lime}>Lime</option>
+        <option value={Material.Green}>Green</option>
+        <option value={Material.Cyan}>Cyan</option>
+        <option value={Material.Blue}>Blue</option>
+        <option value={Material.Purple}>Purple</option>
+        <option value={Material.Pink}>Pink</option>
+        <option value={Material.White}>White</option>
+        <option value={Material.Grey}>Grey</option>
+        <option value={Material.Black}>Black</option>
+        <option value={Material.Brown}>Brown</option>
     </select>
-    <div
-        class="dropdown__preview"
-        style="background: {color}"
-    >
-        {#if color === ShaderColor.NoColor}
+    <div class="dropdown__preview" style="background: {Materials[color].color}">
+        {#if color === Material.None}
             <X />
         {/if}
     </div>

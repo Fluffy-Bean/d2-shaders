@@ -1,17 +1,17 @@
 <script lang="ts">
     import { scale } from "svelte/transition";
-    import editor from "../lib/editor";
-    import shaders from "../lib/shaders";
+    import editorStore from "../lib/editorStore";
+    import shaderStore from "../lib/shaderStore";
 
-    let items = shaders.filter();
-    editor.subscribe(() => { items = shaders.filter() })
+    let items = shaderStore.filter();
+    editorStore.subscribe(() => { items = shaderStore.filter() })
 </script>
 
 <div id="results" class="results__root">
     <ul class="results__list">
         {#each items as shader}
             <li class="results__list__item" transition:scale={{ duration: 200, start: 0.9, }} title={shader.name}>
-                <img src="https://www.bungie.net{shader.image}" alt={shader.name} />
+                <img src="https://www.bungie.net/common/destiny2_content/icons/{shader.image}" alt={shader.name} />
             </li>
         {/each}
     </ul>

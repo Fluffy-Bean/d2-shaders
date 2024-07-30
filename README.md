@@ -1,3 +1,3 @@
-# Destiny 2 Shader finder thingy
+# Destiny 2 Shaders finder thingy
 
 !
