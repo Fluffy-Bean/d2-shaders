@@ -25,13 +25,18 @@
 
         <!-- Simple Colours -->
         <option value={ShaderColor.Red}>Red</option>
-        <option value={ShaderColor.Yellow}>Yellow</option>
         <option value={ShaderColor.Orange}>Orange</option>
+        <option value={ShaderColor.Yellow}>Yellow</option>
+        <option value={ShaderColor.Lime}>Lime</option>
         <option value={ShaderColor.Green}>Green</option>
+        <option value={ShaderColor.Cyan}>Cyan</option>
         <option value={ShaderColor.Blue}>Blue</option>
         <option value={ShaderColor.Purple}>Purple</option>
+        <option value={ShaderColor.Pink}>Pink</option>
         <option value={ShaderColor.White}>White</option>
+        <option value={ShaderColor.Grey}>Grey</option>
         <option value={ShaderColor.Black}>Black</option>
+        <option value={ShaderColor.Brown}>Brown</option>
     </select>
     <div
         class="dropdown__preview"

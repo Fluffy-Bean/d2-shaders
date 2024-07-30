@@ -1,13 +1,18 @@
 export enum ShaderColor {
     NoColor = "var(--color-surface)",
     Red = "var(--color-red)",
-    Yellow = "var(--color-yellow)",
     Orange = "var(--color-orange)",
+    Yellow = "var(--color-yellow)",
+    Lime = "var(--color-lime)",
     Green = "var(--color-green)",
+    Cyan = "var(--color-cyan)",
     Blue = "var(--color-blue)",
     Purple = "var(--color-purple)",
+    Pink = "var(--color-pink)",
     White = "var(--color-white)",
+    Grey = "var(--color-grey)",
     Black = "var(--color-black)",
+    Brown = "var(--color-brown)",
 }
 
 export enum ShaderSlot {
