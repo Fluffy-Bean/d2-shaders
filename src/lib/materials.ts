@@ -20,6 +20,7 @@ enum Material {
     Silver,
     Emerald,
     VexBlue,
+    DaitoMagenta,
 }
 
 export enum MaterialSlot {
@@ -123,6 +124,10 @@ const Materials: Record<Material, IMaterial> = {
     [Material.VexBlue]: {
         name: "Vex Blue",
         color: "#b7e3ee",
+    },
+    [Material.DaitoMagenta]: {
+        name: "Daito Magenta",
+        color: "#bb00b2",
     },
 };
 
