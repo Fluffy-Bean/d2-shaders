@@ -385,10 +385,10 @@ export const Shaders: Shader[] = [
             TopFabric: M.Grey,
             LeftFabric: M.Grey,
             RightFabric: M.White,
-            BottomFabric: M.Brown,
+            BottomFabric: M.Blue,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Brown,
+            OuterMetal: M.Blue,
             InnerMetal: M.White,
         },
     },
@@ -500,7 +500,7 @@ export const Shaders: Shader[] = [
     {
         name: "Beneficence",
         source: "Source: Complete Iron Banner matches and earn rank-up packages from Lord Saladin.",
-        image: "8cfb8995131f6671244065e5360332f4.jpg",
+        image: "9783bc56c7ff46ad4501721b35cf8561.jpg",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Silver,
