@@ -5,25 +5,24 @@
 
     export let slot: MaterialSlot;
 
-    let color = Material.None;
+    let material = Material.None;
 
     function onChange() {
         editorStore.update((editor) => {
-            editor[slot] = color;
+            editor[slot] = material;
             return editor;
         });
     }
 
     editorStore.subscribe((value) => {
-        color = value[slot];
+        material = value[slot];
     });
 </script>
 
 <div class="dropdown__root">
-    <select class="dropdown__select" bind:value={color} on:change={onChange}>
+    <select class="dropdown__select" bind:value={material} on:change={onChange}>
         <option value={Material.None}>No Selection</option>
 
-        <!-- Simple Colours -->
         <option value={Material.Red}>Red</option>
         <option value={Material.Orange}>Orange</option>
         <option value={Material.Yellow}>Yellow</option>
@@ -37,9 +36,16 @@
         <option value={Material.Grey}>Grey</option>
         <option value={Material.Black}>Black</option>
         <option value={Material.Brown}>Brown</option>
+        <option value={Material.Gold}>Gold</option>
+        <option value={Material.Pale}>Pale</option>
+        <option value={Material.Bronze}>Bronze</option>
+        <option value={Material.Rose}>Rose</option>
+        <option value={Material.Silver}>Silver</option>
+        <option value={Material.Emerald}>Emerald</option>
+        <option value={Material.VexBlue}>VexBlue</option>
     </select>
-    <div class="dropdown__preview" style="background: {Materials[color].color}">
-        {#if color === Material.None}
+    <div class="dropdown__preview" style="background: {Materials[material].color}">
+        {#if material === Material.None}
             <X />
         {/if}
     </div>
