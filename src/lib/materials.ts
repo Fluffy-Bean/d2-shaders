@@ -13,6 +13,12 @@ enum Material {
     Grey,
     Black,
     Brown,
+    Gold,
+    Pale,
+    Bronze,
+    Rose,
+    Silver,
+    Emerald,
 }
 
 export enum MaterialSlot {
@@ -88,6 +94,30 @@ const Materials: Record<Material, IMaterial> = {
     [Material.Brown]: {
         name: "Brown",
         color: "#493228",
+    },
+    [Material.Gold]: {
+        name: "Gold",
+        color: "#c2a042",
+    },
+    [Material.Pale]: {
+        name: "Pale",
+        color: "#d4c69f",
+    },
+    [Material.Bronze]: {
+        name: "Bronze",
+        color: "#53220b",
+    },
+    [Material.Rose]: {
+        name: "Rose",
+        color: "#52091b",
+    },
+    [Material.Silver]: {
+        name: "Silver",
+        color: "#afafa7",
+    },
+    [Material.Emerald]: {
+        name: "Emerald",
+        color: "#0a2b18",
     },
 };
 
