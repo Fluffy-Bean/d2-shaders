@@ -13,15 +13,15 @@
     let outerMetal = Material.None;
     let innerMetal = Material.None;
 
-    editorStore.subscribe((values: Record<MaterialSlot, Material>) => {
-        topFabric = values[MaterialSlot.TopFabric];
-        rightFabric = values[MaterialSlot.RightFabric];
-        leftFabric = values[MaterialSlot.LeftFabric];
-        bottomFabric = values[MaterialSlot.BottomFabric];
-        topLight = values[MaterialSlot.TopLight];
-        bottomLight = values[MaterialSlot.BottomLight];
-        outerMetal = values[MaterialSlot.OuterMetal];
-        innerMetal = values[MaterialSlot.InnerMetal];
+    editorStore.subscribe((editor) => {
+        topFabric = editor.material[MaterialSlot.TopFabric];
+        rightFabric = editor.material[MaterialSlot.RightFabric];
+        leftFabric = editor.material[MaterialSlot.LeftFabric];
+        bottomFabric = editor.material[MaterialSlot.BottomFabric];
+        topLight = editor.material[MaterialSlot.TopLight];
+        bottomLight = editor.material[MaterialSlot.BottomLight];
+        outerMetal = editor.material[MaterialSlot.OuterMetal];
+        innerMetal = editor.material[MaterialSlot.InnerMetal];
     });
 </script>
 

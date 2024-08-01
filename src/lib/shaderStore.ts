@@ -7,16 +7,16 @@ function makeStore() {
     const store: Readable<Shader[]> = readable(Shaders);
 
     function filter(): Array<Shader> {
-        let e = get(editorStore);
+        let editor = get(editorStore);
         return get(store).filter((item: Shader) => {
-            if (e[MaterialSlot.TopFabric] !== Material.None && e[MaterialSlot.TopFabric] !== item.colors.TopFabric) return false
-            if (e[MaterialSlot.RightFabric] !== Material.None && e[MaterialSlot.RightFabric] !== item.colors.RightFabric) return false
-            if (e[MaterialSlot.LeftFabric] !== Material.None && e[MaterialSlot.LeftFabric] !== item.colors.LeftFabric) return false
-            if (e[MaterialSlot.BottomFabric] !== Material.None && e[MaterialSlot.BottomFabric] !== item.colors.BottomFabric) return false
-            if (e[MaterialSlot.TopLight] !== Material.None && e[MaterialSlot.TopLight] !== item.colors.TopLight) return false
-            if (e[MaterialSlot.BottomLight] !== Material.None && e[MaterialSlot.BottomLight] !== item.colors.BottomLight) return false
-            if (e[MaterialSlot.OuterMetal] !== Material.None && e[MaterialSlot.OuterMetal] !== item.colors.OuterMetal) return false
-            if (e[MaterialSlot.InnerMetal] !== Material.None && e[MaterialSlot.InnerMetal] !== item.colors.InnerMetal) return false
+            if (editor.material[MaterialSlot.TopFabric] !== Material.None && editor.material[MaterialSlot.TopFabric] !== item.colors.TopFabric) return false
+            if (editor.material[MaterialSlot.RightFabric] !== Material.None && editor.material[MaterialSlot.RightFabric] !== item.colors.RightFabric) return false
+            if (editor.material[MaterialSlot.LeftFabric] !== Material.None && editor.material[MaterialSlot.LeftFabric] !== item.colors.LeftFabric) return false
+            if (editor.material[MaterialSlot.BottomFabric] !== Material.None && editor.material[MaterialSlot.BottomFabric] !== item.colors.BottomFabric) return false
+            if (editor.material[MaterialSlot.TopLight] !== Material.None && editor.material[MaterialSlot.TopLight] !== item.colors.TopLight) return false
+            if (editor.material[MaterialSlot.BottomLight] !== Material.None && editor.material[MaterialSlot.BottomLight] !== item.colors.BottomLight) return false
+            if (editor.material[MaterialSlot.OuterMetal] !== Material.None && editor.material[MaterialSlot.OuterMetal] !== item.colors.OuterMetal) return false
+            if (editor.material[MaterialSlot.InnerMetal] !== Material.None && editor.material[MaterialSlot.InnerMetal] !== item.colors.InnerMetal) return false
             return true
         });
     }
