@@ -19,8 +19,8 @@
     });
 </script>
 
-<div class="dropdown__root">
-    <select class="dropdown__select" bind:value={material} on:change={onChange}>
+<div class="flex w-full flex-row items-center justify-start gap-2">
+    <select class="h-9 flex-grow rounded-md border-0 bg-neutral-300 px-4 text-sm text-neutral-900 hover:bg-neutral-200 focus:outline-px" bind:value={material} on:change={onChange}>
         <option value={Material.None}>No Selection</option>
 
         <option value={Material.Red}>Red</option>
@@ -44,59 +44,10 @@
         <option value={Material.Emerald}>Emerald</option>
         <option value={Material.VexBlue}>VexBlue</option>
     </select>
-    <div class="dropdown__preview" style="background: {Materials[material].color}">
+
+    <div class="flex h-9 w-9 items-center justify-center rounded-md border border-neutral-400 text-neutral-400" style="background: {Materials[material].color}">
         {#if material === Material.None}
             <X />
         {/if}
     </div>
 </div>
-
-<style lang="scss">
-    .dropdown__root {
-        width: 100%;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .dropdown__preview {
-        width: 35px;
-        height: 35px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        border: var(--color-border);
-        border-radius: var(--border-radius-large);
-        background: transparent;
-        color: var(--color-on-surface);
-    }
-
-    .dropdown__select {
-        padding: 0 16px;
-
-        height: 35px;
-
-        display: block;
-        flex-grow: 1;
-
-        font-family: var(--font-family), serif;
-        font-size: var(--font-size-small);
-
-        border-radius: var(--border-radius-large);
-        border: 0 solid transparent;
-        background: var(--color-gray);
-        color: var(--color-on-gray);
-        &:hover, &:focus-visible {
-            border: 0 solid transparent;
-            outline: 0 solid transparent;
-            background: var(--color-light);
-            color: var(--color-on-light);
-            cursor: pointer;
-        }
-    }
-</style>

@@ -2,7 +2,7 @@
     import { Material, Materials, MaterialSlot } from "../lib/materials";
     import editorStore from "../lib/editorStore";
 
-    const surface = "var(--color-on-surface)"
+    const surface = "white"
 
     let topFabric = Material.None;
     let rightFabric = Material.None;
@@ -26,8 +26,8 @@
 </script>
 
 <svg
-    width="201"
-    height="201"
+    width="100%"
+    height="100%"
     viewBox="0 0 201 201"
     version="1.1"
     id="svg1"
@@ -81,11 +81,3 @@
         />
     </g>
 </svg>
-
-<style lang="scss">
-    svg {
-        width: 100%;
-        height: 100%;
-        display: block;
-    }
-</style>

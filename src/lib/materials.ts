@@ -43,7 +43,7 @@ interface IMaterial {
 const Materials: Record<Material, IMaterial> = {
     [Material.None]: {
         name: "None",
-        color: "#1f1e1d",
+        color: "#171717", // tailwind neutral-900
     },
     [Material.Red]: {
         name: "Red",
