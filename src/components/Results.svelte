@@ -18,7 +18,7 @@
                 <li class="relative h-24 w-24 overflow-hidden rounded-md bg-neutral-800" transition:scale={{ duration: 200, start: 0.9, }} title={shader.name}>
                     <img
                         class="absolute top-0 left-0 h-full w-full object-cover"
-                        src="https://www.bungie.net/common/destiny2_content/icons/{shader.image}"
+                        src="https://www.bungie.net/common/destiny2_content/icons/{shader.image}.jpg"
                         alt={shader.name}
                     />
                 </li>

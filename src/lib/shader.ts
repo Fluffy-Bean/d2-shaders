@@ -20,22 +20,22 @@ export const Shaders: Shader[] = [
     {
         name: "Always North",
         source: "Source: Forsaken Annual Pass",
-        image: "80699ae7fd7f109f2d0521b07eb0db35.jpg",
+        image: "80699ae7fd7f109f2d0521b07eb0db35",
         colors: {
             TopFabric: M.Red,
             LeftFabric: M.Pale,
             RightFabric: M.Green,
-            BottomFabric: M.Black,
+            BottomFabric: M.Grey,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Orange,
+            OuterMetal: M.Pale,
             InnerMetal: M.Green,
         },
     },
     {
         name: "Diametric Crush",
         source: "Source: \"Salvation's Edge\" Raid",
-        image: "5c2102e7dd7068c38059b518038af413.jpg",
+        image: "5c2102e7dd7068c38059b518038af413",
         colors: {
             TopFabric: M.White,
             LeftFabric: M.White,
@@ -50,7 +50,7 @@ export const Shaders: Shader[] = [
     {
         name: "Superblack",
         source: "Source: Season of the Wish",
-        image: "574f5c8ef1eea552d2f2e01c6141a465.jpg",
+        image: "574f5c8ef1eea552d2f2e01c6141a465",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.Black,
@@ -65,7 +65,7 @@ export const Shaders: Shader[] = [
     {
         name: "Ablaze",
         source: "Source: Eververse",
-        image: "403f3cae7ac06b46ef11fc5792291179.jpg",
+        image: "403f3cae7ac06b46ef11fc5792291179",
         colors: {
             TopFabric: M.Brown,
             LeftFabric: M.Black,
@@ -80,11 +80,11 @@ export const Shaders: Shader[] = [
     {
         name: "(Adroit)",
         source: "",
-        image: "06b08aa4ec68cededb448acb36646f5a.jpg",
+        image: "06b08aa4ec68cededb448acb36646f5a",
         colors: {
             TopFabric: M.Blue,
             LeftFabric: M.Black,
-            RightFabric: M.Grey,
+            RightFabric: M.WornBlue,
             BottomFabric: M.Black,
             TopLight: M.Red,
             BottomLight: M.White,
@@ -95,10 +95,10 @@ export const Shaders: Shader[] = [
     {
         name: "3 Connections",
         source: "Source: Unlocked by a special offer",
-        image: "ea56ddae449a596f2c60e6abe7b563ca.jpg",
+        image: "ea56ddae449a596f2c60e6abe7b563ca",
         colors: {
             TopFabric: M.Blue,
-            LeftFabric: M.Black,
+            LeftFabric: M.Blue,
             RightFabric: M.White,
             BottomFabric: M.Black,
             TopLight: M.Pink,
@@ -110,7 +110,7 @@ export const Shaders: Shader[] = [
     {
         name: "Abyssinian Gold",
         source: "Source: Eververse",
-        image: "0960967cc56da702e4757af9dfa0c88c.jpg",
+        image: "0960967cc56da702e4757af9dfa0c88c",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.Grey,
@@ -125,7 +125,7 @@ export const Shaders: Shader[] = [
     {
         name: "Aces Full of Kings",
         source: "Source: Eververse",
-        image: "35d1ea3988645dff04da9e2c1a9c6d3c.jpg",
+        image: "35d1ea3988645dff04da9e2c1a9c6d3c",
         colors: {
             TopFabric: M.Pale,
             LeftFabric: M.Red,
@@ -140,7 +140,7 @@ export const Shaders: Shader[] = [
     {
         name: "Amaranth Atrocity",
         source: "Source: Festival of the Lost 2018",
-        image: "5a649decca5fde3ac4d5cd001b583e19.jpg",
+        image: "5a649decca5fde3ac4d5cd001b583e19",
         colors: {
             TopFabric: M.White,
             LeftFabric: M.Black,
@@ -155,11 +155,11 @@ export const Shaders: Shader[] = [
     {
         name: "Alchemy Scorch",
         source: "Source: Festival of the Lost 2020",
-        image: "987e90cb544fda80dbbf9a9e16e28835.jpg",
+        image: "987e90cb544fda80dbbf9a9e16e28835",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.Black,
-            RightFabric: M.Blue,
+            RightFabric: M.Black,
             BottomFabric: M.Brown,
             TopLight: M.Lime,
             BottomLight: M.Lime,
@@ -170,7 +170,7 @@ export const Shaders: Shader[] = [
     {
         name: "Amethyst Bloom",
         source: "Source: Eververse",
-        image: "5f4e2c1c0fc4b15f62fb2fb7402e545e.jpg",
+        image: "5f4e2c1c0fc4b15f62fb2fb7402e545e",
         colors: {
             TopFabric: M.Blue,
             LeftFabric: M.Grey,
@@ -185,7 +185,7 @@ export const Shaders: Shader[] = [
     {
         name: "Amethyst Veil",
         source: "Source: Eververse",
-        image: "bdb2fb17627a928461d17a24f7844bc9.jpg",
+        image: "bdb2fb17627a928461d17a24f7844bc9",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.White,
@@ -193,21 +193,21 @@ export const Shaders: Shader[] = [
             BottomFabric: M.Black,
             TopLight: M.Purple,
             BottomLight: M.Purple,
-            OuterMetal: M.Grey,
+            OuterMetal: M.Silver,
             InnerMetal: M.Black,
         },
     },
     {
         name: "Amrita's Dream",
         source: "Source: Season Pass Reward",
-        image: "d166600a3e731da441989d1db6b1c84f.jpg",
+        image: "d166600a3e731da441989d1db6b1c84f",
         colors: {
-            TopFabric: M.Purple,
+            TopFabric: M.Black,
             LeftFabric: M.Black,
             RightFabric: M.White,
             BottomFabric: M.White,
             TopLight: M.Lime,
-            BottomLight: M.Purple,
+            BottomLight: M.DaitoMagenta,
             OuterMetal: M.Purple,
             InnerMetal: M.Grey,
         },
@@ -215,7 +215,7 @@ export const Shaders: Shader[] = [
     {
         name: "Ancient Believer",
         source: "Source: \"Garden of Salvation\" Raid",
-        image: "5db4ed8238392e9fd336c91a19e38fbd.jpg",
+        image: "5db4ed8238392e9fd336c91a19e38fbd",
         colors: {
             TopFabric: M.White,
             LeftFabric: M.Black,
@@ -223,14 +223,14 @@ export const Shaders: Shader[] = [
             BottomFabric: M.Brown,
             TopLight: M.Red,
             BottomLight: M.Red,
-            OuterMetal: M.Grey,
+            OuterMetal: M.Silver,
             InnerMetal: M.Gold,
         },
     },
     {
         name: "Ancient Defender",
         source: "Source: \"Garden of Salvation\" Raid",
-        image: "13818a382d7d452567477577aaa1927a.jpg",
+        image: "13818a382d7d452567477577aaa1927a",
         colors: {
             TopFabric: M.Rose,
             LeftFabric: M.Black,
@@ -245,7 +245,7 @@ export const Shaders: Shader[] = [
     {
         name: "Ancient Republic",
         source: "Source: Bright Engrams",
-        image: "88411636d62b3510abcbd3f7dea8216e.jpg",
+        image: "88411636d62b3510abcbd3f7dea8216e",
         colors: {
             TopFabric: M.Red,
             LeftFabric: M.White,
@@ -253,14 +253,14 @@ export const Shaders: Shader[] = [
             BottomFabric: M.Black,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.White,
+            OuterMetal: M.Silver,
             InnerMetal: M.Purple,
         },
     },
     {
         name: "Angel's Gleam",
         source: "Source: Upgraded Event Card Reward",
-        image: "8a86ad973e5769cb4b611bc0a6d8be3a.jpg",
+        image: "8a86ad973e5769cb4b611bc0a6d8be3a",
         colors: {
             TopFabric: M.Yellow,
             LeftFabric: M.Grey,
@@ -269,17 +269,17 @@ export const Shaders: Shader[] = [
             TopLight: M.Red,
             BottomLight: M.White,
             OuterMetal: M.Red,
-            InnerMetal: M.White,
+            InnerMetal: M.Grey,
         },
     },
     {
         name: "Aniline Shock",
         source: "Source: Bright Engrams",
-        image: "0d85ed10a81cd39361ff2da2db041cc1.jpg",
+        image: "0d85ed10a81cd39361ff2da2db041cc1",
         colors: {
             TopFabric: M.White,
             LeftFabric: M.Black,
-            RightFabric: M.Black,
+            RightFabric: M.Blue,
             BottomFabric: M.White,
             TopLight: M.White,
             BottomLight: M.White,
@@ -290,13 +290,13 @@ export const Shaders: Shader[] = [
     {
         name: "Anyone's Game",
         source: "Source: Season 13 Guardian Games",
-        image: "32e782f806987d5e8f6d57ca07015e4f.jpg",
+        image: "32e782f806987d5e8f6d57ca07015e4f",
         colors: {
             TopFabric: M.Yellow,
             LeftFabric: M.Blue,
             RightFabric: M.White,
             BottomFabric: M.Black,
-            TopLight: M.White,
+            TopLight: M.Blue,
             BottomLight: M.Red,
             OuterMetal: M.Red,
             InnerMetal: M.White,
@@ -305,7 +305,7 @@ export const Shaders: Shader[] = [
     {
         name: "Aposematism",
         source: "Source: Eververse",
-        image: "157eed2951ce8ad5cdf02564b94bedb6.jpg",
+        image: "157eed2951ce8ad5cdf02564b94bedb6",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Orange,
@@ -320,7 +320,7 @@ export const Shaders: Shader[] = [
     {
         name: "Aquatic Iridescence",
         source: "Source: Eververse",
-        image: "a299d62a967a9654307e286a71cb550e.jpg",
+        image: "a299d62a967a9654307e286a71cb550e",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Orange,
@@ -335,37 +335,37 @@ export const Shaders: Shader[] = [
     {
         name: "Arboreal Refuge",
         source: "Source: Upgraded Event Card Reward",
-        image: "0c9055a8bd272ea6cd336ad655660031.jpg",
+        image: "0c9055a8bd272ea6cd336ad655660031",
         colors: {
-            TopFabric: M.Green,
-            LeftFabric: M.Orange,
+            TopFabric: M.Emerald,
+            LeftFabric: M.Pale,
             RightFabric: M.Brown,
-            BottomFabric: M.Green,
+            BottomFabric: M.Emerald,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Yellow,
-            InnerMetal: M.Green,
+            OuterMetal: M.Gold,
+            InnerMetal: M.Emerald,
         },
     },
     {
         name: "Archeoskin",
         source: "Source: Eververse",
-        image: "1acc96e759717d4c29547ae03ffca3a0.jpg",
+        image: "1acc96e759717d4c29547ae03ffca3a0",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Yellow,
             RightFabric: M.Grey,
-            BottomFabric: M.Green,
+            BottomFabric: M.Lime,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Yellow,
+            OuterMetal: M.Gold,
             InnerMetal: M.Grey,
         },
     },
     {
         name: "Arctic Dreamscape",
         source: "Source: Ada-1",
-        image: "0bf8be7bfa8dd27d20d1e52bad6130b3.jpg",
+        image: "0bf8be7bfa8dd27d20d1e52bad6130b3",
         colors: {
             TopFabric: M. White,
             LeftFabric: M.Orange,
@@ -380,7 +380,7 @@ export const Shaders: Shader[] = [
     {
         name: "Arctic Pearl",
         source: "Source: Bright Engrams",
-        image: "05402e116c3d4a4d3daa3f9c26c5c6e8.jpg",
+        image: "05402e116c3d4a4d3daa3f9c26c5c6e8",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Grey,
@@ -395,27 +395,27 @@ export const Shaders: Shader[] = [
     {
         name: "Argent Champion",
         source: "Source: Unlocked by a special offer.",
-        image: "268fa24bbebd7a50e84ff5acf8d0d80d.jpg",
+        image: "268fa24bbebd7a50e84ff5acf8d0d80d",
         colors: {
             TopFabric: M.Blue,
             LeftFabric: M.Blue,
             RightFabric: M.White,
-            BottomFabric: M.Purple,
+            BottomFabric: M.WornBlue,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Blue,
+            OuterMetal: M.VexBlue,
             InnerMetal: M.Grey,
         },
     },
     {
         name: "Argent Teratorn",
         source: "Source: Eververse",
-        image: "bfac98853fe988cf1ca38f299e13ee4e.jpg",
+        image: "bfac98853fe988cf1ca38f299e13ee4e",
         colors: {
-            TopFabric: M.Grey,
+            TopFabric: M.WornBlue,
             LeftFabric: M.Red,
-            RightFabric: M.Blue,
-            BottomFabric: M.Grey,
+            RightFabric: M.Purple,
+            BottomFabric: M.WornBlue,
             TopLight: M.Red,
             BottomLight: M.Red,
             OuterMetal: M.Pink,
@@ -425,52 +425,52 @@ export const Shaders: Shader[] = [
     {
         name: "Armatura",
         source: "Source: Season Pass Reward",
-        image: "a32914ea30943e64c0cabbc35c720025.jpg",
+        image: "a32914ea30943e64c0cabbc35c720025",
         colors: {
             TopFabric: M.Brown,
-            LeftFabric: M.Blue,
-            RightFabric: M.Blue,
+            LeftFabric: M.Cyan,
+            RightFabric: M.Cyan,
             BottomFabric: M.Brown,
             TopLight: M.Yellow,
             BottomLight: M.White,
-            OuterMetal: M.Yellow,
-            InnerMetal: M.Green,
+            OuterMetal: M.Gold,
+            InnerMetal: M.Emerald,
         },
     },
     {
         name: "Atlantic Rush",
         source: "Source: Bright Engrams",
-        image: "04375e3419f70ae67dd1ab6d963f42fc.jpg",
+        image: "04375e3419f70ae67dd1ab6d963f42fc",
         colors: {
-            TopFabric: M.Cyan,
+            TopFabric: M.Blue,
             LeftFabric: M.Red,
-            RightFabric: M.Blue,
+            RightFabric: M.Cyan,
             BottomFabric: M.Blue,
             TopLight: M.White,
             BottomLight: M.White,
             OuterMetal: M.Red,
-            InnerMetal: M.Cyan,
+            InnerMetal: M.Blue,
         },
     },
     {
         name: "Atmospheric Glow",
         source: "Source: Eververse",
-        image: "739029d492c311570edc4ac9bc4f3dd0.jpg",
+        image: "739029d492c311570edc4ac9bc4f3dd0",
         colors: {
             TopFabric: M.Green,
-            LeftFabric: M.Green,
-            RightFabric: M.Green,
+            LeftFabric: M.Emerald,
+            RightFabric: M.Emerald,
             BottomFabric: M.Black,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Green,
-            InnerMetal: M.Grey,
+            OuterMetal: M.Emerald,
+            InnerMetal: M.Emerald,
         },
     },
     {
         name: "Basalt Toxic",
         source: "Source: Eververse",
-        image: "ee3639a0d14f96f6cc1c67bb166f9fc0.jpg",
+        image: "ee3639a0d14f96f6cc1c67bb166f9fc0",
         colors: {
             TopFabric: M.Cyan,
             LeftFabric: M.Black,
@@ -478,14 +478,14 @@ export const Shaders: Shader[] = [
             BottomFabric: M.Black,
             TopLight: M.Lime,
             BottomLight: M.Lime,
-            OuterMetal: M.Green,
+            OuterMetal: M.Lime,
             InnerMetal: M.Black,
         },
     },
     {
         name: "Battle Tempered",
         source: "Source: Complete Iron Banner matches and earn rank-up packages from Lord Saladin.",
-        image: "8cfb8995131f6671244065e5360332f4.jpg",
+        image: "8cfb8995131f6671244065e5360332f4",
         colors: {
             TopFabric: M.Bronze,
             LeftFabric: M.Bronze,
@@ -500,13 +500,13 @@ export const Shaders: Shader[] = [
     {
         name: "Beneficence",
         source: "Source: Complete Iron Banner matches and earn rank-up packages from Lord Saladin.",
-        image: "9783bc56c7ff46ad4501721b35cf8561.jpg",
+        image: "9783bc56c7ff46ad4501721b35cf8561",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Silver,
             RightFabric: M.Rose,
             BottomFabric: M.Silver,
-            TopLight: M.Black,
+            TopLight: M.Blue,
             BottomLight: M.White,
             OuterMetal: M.Yellow,
             InnerMetal: M.Emerald,
@@ -515,10 +515,10 @@ export const Shaders: Shader[] = [
     {
         name: "Benevolence of the Nine",
         source: "Source: Complete Trials tickets and earn rank-up packages from the Emissary of the Nine.",
-        image: "8bc053ad818c5e217923e315c3edd024.jpg",
+        image: "8bc053ad818c5e217923e315c3edd024",
         colors: {
             TopFabric: M.White,
-            LeftFabric: M.Grey,
+            LeftFabric: M.WornBlue,
             RightFabric: M.Black,
             BottomFabric: M.White,
             TopLight: M.VexBlue,
@@ -530,7 +530,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bergusian Night",
         source: "Source: Dismantle an item with this shader applied to it.",
-        image: "708de20a5dc337596d3f11d0e6c71e4e.jpg",
+        image: "708de20a5dc337596d3f11d0e6c71e4e",
         colors: {
             TopFabric: M.Purple,
             LeftFabric: M.Purple,
@@ -545,7 +545,7 @@ export const Shaders: Shader[] = [
     {
         name: "Biochrome Oasis",
         source: "Source: Complete Iron Banner matches and earn rank-up packages from Lord Saladin.",
-        image: "5228246a0de23f9bb468981c5aaf4949.jpg",
+        image: "5228246a0de23f9bb468981c5aaf4949",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Pale,
@@ -560,7 +560,7 @@ export const Shaders: Shader[] = [
     {
         name: "Biolume",
         source: "Source: Eververse",
-        image: "7f33165c2680d89bab68ea2249147acf.jpg",
+        image: "7f33165c2680d89bab68ea2249147acf",
         colors: {
             TopFabric: M.Green,
             LeftFabric: M.Grey,
@@ -575,12 +575,12 @@ export const Shaders: Shader[] = [
     {
         name: "Bitterpearl",
         source: "Source: \"Vault of Glass\" Raid",
-        image: "47aa14c02088914f4278c096939ccd05.jpg",
+        image: "47aa14c02088914f4278c096939ccd05",
         colors: {
-            TopFabric: M.White,
+            TopFabric: M.VexBlue,
             LeftFabric: M.White,
             RightFabric: M.Silver,
-            BottomFabric: M.White,
+            BottomFabric: M.VexBlue,
             TopLight: M.VexBlue,
             BottomLight: M.White,
             OuterMetal: M.Silver,
@@ -590,7 +590,7 @@ export const Shaders: Shader[] = [
     {
         name: "Blazing Virtue",
         source: "Source: Bright Engrams",
-        image: "2589e5b04ee7d39ea625587ac20bd532.jpg",
+        image: "2589e5b04ee7d39ea625587ac20bd532",
         colors: {
             TopFabric: M.Green,
             LeftFabric: M.Green,
@@ -605,7 +605,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bloodline Feud",
         source: "Source: Complete a flawless Trials ticket.",
-        image: "4626f93cbe7facb648b6afa90b6e4ee8.jpg",
+        image: "4626f93cbe7facb648b6afa90b6e4ee8",
         colors: {
             TopFabric: M.Pale,
             LeftFabric: M.Black,
@@ -620,7 +620,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bloodmane",
         source: "Source: Eververse",
-        image: "c652f6be0086dcd2b868cc8d499e8b98.jpg",
+        image: "c652f6be0086dcd2b868cc8d499e8b98",
         colors: {
             TopFabric: M.Red,
             LeftFabric: M.Black,
@@ -635,7 +635,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bloody Tooth",
         source: "Source: Bright Engrams",
-        image: "745b8575a614aa537175aaedbaafe190.jpg",
+        image: "745b8575a614aa537175aaedbaafe190",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.Red,
@@ -650,7 +650,7 @@ export const Shaders: Shader[] = [
     {
         name: "Blue Steel",
         source: "Source: Season of the Wish",
-        image: "7f0c59c2fa128bd3dfc3387a848bb78b.jpg",
+        image: "7f0c59c2fa128bd3dfc3387a848bb78b",
         colors: {
             TopFabric: M.Blue,
             LeftFabric: M.Blue,
@@ -665,7 +665,7 @@ export const Shaders: Shader[] = [
     {
         name: "Blueshift Dreams",
         source: "Source: Dismantle an item with this shader applied to it.",
-        image: "9b7c792219d3cbd0de7b59364ed680ab.jpg",
+        image: "9b7c792219d3cbd0de7b59364ed680ab",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.Blue,
@@ -680,7 +680,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bold Statement",
         source: "Source: Dismantle an item with this shader applied to it.",
-        image: "52771a1c1632074a7d1d4525d52d5c88.jpg",
+        image: "52771a1c1632074a7d1d4525d52d5c88",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.Red,
@@ -695,7 +695,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bonemeal Loam",
         source: "",
-        image: "304de398beaa42af605c1cd617d56140.jpg",
+        image: "304de398beaa42af605c1cd617d56140",
         colors: {
             TopFabric: M.Grey,
             LeftFabric: M.Brown,
@@ -710,7 +710,7 @@ export const Shaders: Shader[] = [
     {
         name: "Boreal Char",
         source: "Source: Eververse",
-        image: "78ef9601f8ba0b366183de6e21300a25.jpg",
+        image: "78ef9601f8ba0b366183de6e21300a25",
         colors: {
             TopFabric: M.Emerald,
             LeftFabric: M.Pale,
@@ -725,11 +725,11 @@ export const Shaders: Shader[] = [
     {
         name: "Bray Innovation",
         source: "",
-        image: "39a998134172ec9d0c43d8a0a9340a02.jpg",
+        image: "39a998134172ec9d0c43d8a0a9340a02",
         colors: {
             TopFabric: M.VexBlue,
             LeftFabric: M.Grey,
-            RightFabric: M.Blue,
+            RightFabric: M.Cyan,
             BottomFabric: M.Pale,
             TopLight: M.White,
             BottomLight: M.White,
@@ -740,7 +740,7 @@ export const Shaders: Shader[] = [
     {
         name: "Bright Warning",
         source: "Source: Exploring Europa",
-        image: "74ae399cbb07d97b6263bf1fba5cf2cf.jpg",
+        image: "74ae399cbb07d97b6263bf1fba5cf2cf",
         colors: {
             TopFabric: M.Black,
             LeftFabric: M.White,
@@ -748,29 +748,29 @@ export const Shaders: Shader[] = [
             BottomFabric: M.Blue,
             TopLight: M.White,
             BottomLight: M.Purple,
-            OuterMetal: M.Silver,
+            OuterMetal: M.Grey,
             InnerMetal: M.Red,
         },
     },
     {
         name: "Brineglow",
         source: "",
-        image: "f7eaee9a26e3d070760a91a36296dce9.jpg",
+        image: "f7eaee9a26e3d070760a91a36296dce9",
         colors: {
-            TopFabric: M.Blue,
+            TopFabric: M.WornBlue,
             LeftFabric: M.Black,
             RightFabric: M.Silver,
             BottomFabric: M.Silver,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Blue,
+            OuterMetal: M.WornBlue,
             InnerMetal: M.Red,
         },
     },
     {
         name: "Bruised Blush",
         source: "Source: Eververse",
-        image: "4492f0fa86a1a82669eef4ac30b9789b.jpg",
+        image: "4492f0fa86a1a82669eef4ac30b9789b",
         colors: {
             TopFabric: M.DaitoMagenta,
             LeftFabric: M.Grey,
@@ -785,22 +785,22 @@ export const Shaders: Shader[] = [
     {
         name: "Buffer Overflow",
         source: "Source: Bright Engrams",
-        image: "dec6520e2d6ff73ffa5ccf20534cb899.jpg",
+        image: "dec6520e2d6ff73ffa5ccf20534cb899",
         colors: {
             TopFabric: M.Red,
-            LeftFabric: M.Blue,
-            RightFabric: M.Pale,
+            LeftFabric: M.WornBlue,
+            RightFabric: M.RoseGold,
             BottomFabric: M.Black,
             TopLight: M.White,
             BottomLight: M.White,
             OuterMetal: M.Red,
-            InnerMetal: M.Pale,
+            InnerMetal: M.RoseGold,
         },
     },
     {
         name: "Bumblebee",
         source: "Source: Bright Engrams",
-        image: "bdecce8238a44511c2d85b6faf7a2f67.jpg",
+        image: "bdecce8238a44511c2d85b6faf7a2f67",
         colors: {
             TopFabric: M.Yellow,
             LeftFabric: M.Grey,
@@ -815,7 +815,7 @@ export const Shaders: Shader[] = [
     {
         name: "Burnished Acclaim",
         source: "Source: Handed out at US events in 2019.",
-        image: "d97578bd9c200467c40eb64255973b14.jpg",
+        image: "d97578bd9c200467c40eb64255973b14",
         colors: {
             TopFabric: M.Brown,
             LeftFabric: M.White,
@@ -830,7 +830,7 @@ export const Shaders: Shader[] = [
     {
         name: "Burnished Orchid",
         source: "Source: Dismantle an item with this shader applied to it.",
-        image: "5a37950e1399b121aa966ceb2c2edd99.jpg",
+        image: "5a37950e1399b121aa966ceb2c2edd99",
         colors: {
             TopFabric: M.VexBlue,
             LeftFabric: M.Pale,
@@ -838,16 +838,16 @@ export const Shaders: Shader[] = [
             BottomFabric: M.White,
             TopLight: M.White,
             BottomLight: M.White,
-            OuterMetal: M.Bronze,
+            OuterMetal: M.RoseGold,
             InnerMetal: M.Lime,
         },
     },
     {
         name: "Burnished Reed",
         source: "Source: Eververse",
-        image: "df09ee836eac4dd8c5dcd86bdd549498.jpg",
+        image: "df09ee836eac4dd8c5dcd86bdd549498",
         colors: {
-            TopFabric: M.Emerald,
+            TopFabric: M.Grey,
             LeftFabric: M.Black,
             RightFabric: M.Emerald,
             BottomFabric: M.Black,
@@ -860,7 +860,7 @@ export const Shaders: Shader[] = [
     {
         name: "Butterbark",
         source: "Source: Eververse",
-        image: "dbe100f3b077cbfe11a3f8a6caf5696f.jpg",
+        image: "dbe100f3b077cbfe11a3f8a6caf5696f",
         colors: {
             TopFabric: M.Brown,
             LeftFabric: M.Silver,
@@ -875,7 +875,7 @@ export const Shaders: Shader[] = [
     {
         name: "Byzantium Lotus",
         source: "Source: Eververse",
-        image: "a8da94cc1eb534f760a3e720673c8cb7.jpg",
+        image: "a8da94cc1eb534f760a3e720673c8cb7",
         colors: {
             TopFabric: M.Yellow,
             LeftFabric: M.Purple,
@@ -885,6 +885,111 @@ export const Shaders: Shader[] = [
             BottomLight: M.Pink,
             OuterMetal: M.Purple,
             InnerMetal: M.Pink,
+        },
+    },
+    {
+        name: "Calus's Elite",
+        source: "Source: Leviathan, Eater of Worlds raid lair.",
+        image: "81ecdf29f90ebb169343d6f4326abd7f",
+        colors: {
+            TopFabric: M.Brown,
+            LeftFabric: M.Brown,
+            RightFabric: M.Brown,
+            BottomFabric: M.Black,
+            TopLight: M.Orange,
+            BottomLight: M.Orange,
+            OuterMetal: M.Gold,
+            InnerMetal: M.Black,
+        },
+    },
+    {
+        name: "Calus's Preferred",
+        source: "Source: Leviathan, Eater of Worlds raid lair on Prestige difficulty.",
+        image: "300e67f4f58c20f660e940dfa31fd622",
+        colors: {
+            TopFabric: M.Grey,
+            LeftFabric: M.Brown,
+            RightFabric: M.Grey,
+            BottomFabric: M.Blue,
+            TopLight: M.Pink,
+            BottomLight: M.Red,
+            OuterMetal: M.Black,
+            InnerMetal: M.VexBlue,
+        },
+    },
+    {
+        name: "Calus's Selected",
+        source: "Source: Leviathan raid.",
+        image: "56622ba132760e617d902977aadf41f7",
+        colors: {
+            TopFabric: M.Purple,
+            LeftFabric: M.Black,
+            RightFabric: M.White,
+            BottomFabric: M.White,
+            TopLight: M.Yellow,
+            BottomLight: M.Yellow,
+            OuterMetal: M.Gold,
+            InnerMetal: M.White,
+        },
+    },
+    {
+        name: "Calus's Shadow",
+        source: "Source: Leviathan, Spire of Stars raid lair on Prestige difficulty.",
+        image: "f7ca77b5f8cc7e90937842773bdbd106",
+        colors: {
+            TopFabric: M.Gold,
+            LeftFabric: M.Grey,
+            RightFabric: M.Pale,
+            BottomFabric: M.Grey,
+            TopLight: M.Red,
+            BottomLight: M.Orange,
+            OuterMetal: M.Pale,
+            InnerMetal: M.Gold,
+        },
+    },
+    {
+        name: "Calus's Treasured",
+        source: "Source: Leviathan raid on Prestige difficulty.",
+        image: "f9689efc349b213146291cea16cbbb3a",
+        colors: {
+            TopFabric: M.Purple,
+            LeftFabric: M.Grey,
+            RightFabric: M.Yellow,
+            BottomFabric: M.Pale,
+            TopLight: M.Yellow,
+            BottomLight: M.Yellow,
+            OuterMetal: M.Black,
+            InnerMetal: M.Gold,
+        },
+    },
+    {
+        name: "Canis Coat",
+        source: "Source: Iron Banner Iron-Handed Diplomacy",
+        image: "1a83917c4eaa598922d3e6b977b13cc2",
+        colors: {
+            TopFabric: M.Brown,
+            LeftFabric: M.Grey,
+            RightFabric: M.Grey,
+            BottomFabric: M.Rose,
+            TopLight: M.Red,
+            BottomLight: M.White,
+            OuterMetal: M.RoseGold,
+            InnerMetal: M.Pale,
+        },
+    },
+    {
+        name: "Carbon Blood",
+        source: "Source: Eververse",
+        image: "231ac24b90d2d54e893c75397ff036ea",
+        colors: {
+            TopFabric: M.White,
+            LeftFabric: M.White,
+            RightFabric: M.Black,
+            BottomFabric: M.Black,
+            TopLight: M.White,
+            BottomLight: M.White,
+            OuterMetal: M.Red,
+            InnerMetal: M.Black,
         },
     },
 ].sort((a: Shader, b: Shader) => {
